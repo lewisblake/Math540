@@ -26,9 +26,17 @@ int main()
     // Initialize space for Amat and Bmat
     vector<vector<double> > Amat(N, vector<double>(N));
     vector<vector<double> > Bmat(N, vector<double>(N));
+    
     // Initialize arrays to put contents of AmatInput, BmatInput
-    double AmatArray[N][N];
-    double BmatArray[N][N];
+    //double AmatArray[N][N];
+    //double BmatArray[N][N];
+
+    double **AmatArray = new double*[N];
+    double **BmatArray = new double*[N];
+    for (int i = 0; i< N; i++){
+        AmatArray[i] = new double[N];
+        BmatArray[i] = new double[N];
+    }
 
     // Read the binary file the same way you wrote it
     // Assign read contents into AmatArray, BmatArray
@@ -47,6 +55,16 @@ int main()
             Bmat[i][j] = BmatArray[i][j];
         }
     }
+    
+    // Deallocate AmatArray, BmatArray memory
+    // after writing to binary files
+    for (int i = 0; i< N; i++)
+    {
+        delete [] AmatArray[i];
+        delete []BmatArray[i];
+    }
+    delete [] AmatArray;
+    delete [] BmatArray;
 
     // Create AB matrix with createAB()
     vector<vector<double> > ABmat = createAB(N, Amat, Bmat);
