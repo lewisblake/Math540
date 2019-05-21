@@ -1,7 +1,6 @@
 // functions.h
 #include<iostream>
 #include <cmath> // need to incluce <cmath> here?
-//#include <vector>
 using namespace std;
 #ifndef FUNCTIONS_H_
 #define FUNCTIONS_H_
