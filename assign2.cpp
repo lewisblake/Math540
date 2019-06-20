@@ -114,7 +114,7 @@ int main(int argc, char ** argv){
 		// Parition [0, pi] into K subintervals
 		vector<double > kIntervals = linspace(0, M_PI, K);
 		// Intialize vector of subintervals for this worker
-		// Give each core it's appropriate subintervals
+		// Give each core its appropriate subintervals
 		vector<double > theseSubIntervals = getSubIntervals(kIntervals, myRank, numCores, K);	
 
 		double thisWorkersM = 0, thisWorkersT = 0, thisWorkersS = 0;
