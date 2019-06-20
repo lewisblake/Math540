@@ -12,12 +12,12 @@ The files associated with this project are math540_hw1_1.cpp, math540_hw1_3a.cpp
 
 ## Assignment 2
 
-The files associated with this project are assign2.cpp. This program is designed to utilize the C-implementation of the MPI library for parallel computations.
+The files associated with this project are assign2.cpp. This program is designed to utilize the C-implementation of the MPI library for parallel computations and the Eigen library for Linear Algebra.
 
 The objective of this program is to evaluate a set of highly-oscialltory integrals.
 
 ## Assignment 3
 
-The files associated with this project are assign3.cpp This program is designed to utilize the C-implementation of the MPI library for parallel computations.
+The files associated with this project are assign3.cpp This program is designed to utilize the C-implementation of the MPI library for parallel computations and the Eigen Library for Linear Algebra.
 
 The objective of this program is to construct a large covariance matrix across processing cores.
