@@ -1,6 +1,6 @@
 // functions.h
 #include<iostream>
-#include <cmath> // need to incluce <cmath> here?
+#include <cmath>
 using namespace std;
 #ifndef FUNCTIONS_H_
 #define FUNCTIONS_H_
@@ -18,7 +18,6 @@ int getN(); // Prompts user input to get N
 std::vector<std::vector<double> > createA(int N); // createA() prototype, it's declaration
 
 // createB() function
-//std::vector<std::vector<std::vector<double> > >
 Foo createB(int N); // createB() prototype, it's declaration
 
 // createAB() function
