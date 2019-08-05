@@ -1,0 +1,7 @@
+./Data/satelliteData.bin
+build_structure
+9
+2
+64
+0.01
+5
