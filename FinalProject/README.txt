@@ -1,6 +1,4 @@
-Dear Ganesh,
-
-This is my Final Project for Math 540. This code implments the hierarchical domain partitioning of the multi-resolution approximation (MRA) for spatial data sets. Following are instructions to run the code. Before following the instructions, please log on to MIO and copy the files into a directory.
+This is my Final Project for Math 540, built for the Colorado School of Mines HPC MIO. This code implments the hierarchical domain partitioning of the multi-resolution approximation (MRA) for spatial data sets. Following are instructions to run the code. Before following the instructions, please log on to MIO and copy the files into a directory.
 
 1) You will need to make load the following modules by typing the following commands:
 module load PrgEnv/intel/latest
@@ -17,8 +15,3 @@ main.cpp: main program of the code that call the major model procedures
 functions.cpp: file where many of the smaller model functions are implemented
 functions.h: header file for functions.cpp and buildStructure.cpp
 buildStructure.cpp: function responsible for building the multi-resolution structure
-
-This should be enough to get you started. Please do not hesitate to reach out if your have any questions.
-
-Best,
-Lewis
