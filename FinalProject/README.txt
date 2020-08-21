@@ -1,6 +1,6 @@
 This is my Final Project for Math 540, built for the Colorado School of Mines HPC MIO. This code implments the hierarchical domain partitioning of the multi-resolution approximation (MRA) for spatial data sets. Following are instructions to run the code. Before following the instructions, please log on to MIO and copy the files into a directory.
 
-1) You will need to make load the following modules by typing the following commands:
+1) You will need to load the the required modules by typing the following commands:
 module load PrgEnv/intel/latest
 module load PrgEnv/mpi/intel/intel/5.0.3
 
