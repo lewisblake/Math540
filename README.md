@@ -24,4 +24,4 @@ The objective of this program is to construct a large covariance matrix across p
 
 ## Final Project
 
-The files are located in the FinalProject folder, with the exeception of the Data folder, which is not included. In this folder there is an additional README.txt which outlines the functionality of the files. This code base builds the hierarchical domain decomposition of the multi-resolution approximation in C++. It was tested on the CSM HPC MIO.
+The files are located in the FinalProject folder, with the exeception of the Data folder, which is not included. In this folder there is an additional README.txt which outlines the functionality of the files. This code base builds the hierarchical domain decomposition of the [Multi-Resolution Approximation (MRA)](https://www.researchgate.net/publication/280221189_A_Multi-Resolution_Approximation_for_Massive_Spatial_Datasets) spatial statistical model in C++. It was tested on the CSM HPC MIO.
